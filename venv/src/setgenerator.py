@@ -6,7 +6,7 @@ train_folder = "/cars_dataset/train"
 test_folder = "/cars_dataset/test"
 valid_folder = "/cars_dataset/validation"
 
-car = "/bmw_seria3/"
+car = "/opel_astra/"
 
 train_folder = train_folder + car
 test_folder = test_folder + car
@@ -16,7 +16,7 @@ mkdir(train_folder)
 mkdir(test_folder)
 mkdir(valid_folder)
 
-folder = "bmw_data/"
+folder = "astra_data/"
 
 img_list = listdir(folder)
 

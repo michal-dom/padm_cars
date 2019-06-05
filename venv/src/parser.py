@@ -1,8 +1,8 @@
 from urllib.request import Request, urlopen
 import re
 
-otomoto_link = "https://www.otomoto.pl/osobowe/audi/a4/b8-2007-2015/seg-combi/?search%5Bbrand_program_id%5D%5B0%5D=&search%5Bcountry%5D=&page="
-file_name = "audi_links.txt"
+otomoto_link = "https://www.otomoto.pl/osobowe/opel/astra/j-2009-2015/seg-compact/?search%5Bbrand_program_id%5D%5B0%5D=&search%5Bcountry%5D=&page="
+file_name = "astra_links.txt"
 
 def link_getter(page_url):
     # fp = urllib.request.urlopen(page_url)
@@ -26,7 +26,7 @@ def link_getter(page_url):
                 myfile.write("\n")
             print(link)
 
-for i in range(1, 52):
+for i in range(1, 33):
 
     link_getter(
         otomoto_link + str(i))

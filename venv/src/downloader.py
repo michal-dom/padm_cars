@@ -6,8 +6,8 @@ import os
 
 links = []
 
-file_links = "audi_links.txt"
-img_folder = "audi_img/"
+file_links = "astra_links.txt"
+img_folder = "astra_img/"
 
 os.mkdir(img_folder)
 
